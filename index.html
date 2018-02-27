@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>ottergram</title>
+  <link rel="stylesheet" href="stylesheets/styles.css">
+</head>
+
+<body>
+  <header class="main-header">
+    <h1 class="logo-text">ottergram</h1>
+  </header>
+  <p id="demo"></p>
+  <main class="main-content">
+    <ul class="thumbnail-list">
+      <li class="thumbnail-item">
+        <a href="img/Flexboxfroggy.png" data-image-role="trigger" data-image-title="Flex Froggy" data-image-url="img/Flexboxfroggy.png">
+          <img class="thumbnail-image" src="img/Flexboxfroggy.png" alt="Barry the Otter">
+          <span class="thumbnail-title">Froggy</span>
+        </a>
+      </li>
+      <li class="thumbnail-item">
+        <a href="img/Grid-Garden.png" data-image-role="trigger" data-image-title="Grid Garden" data-image-url="img/Grid-Garden.png">
+          <img class="thumbnail-image" src="img/Grid-Garden.png" alt="Barry the Otter">
+          <span class="thumbnail-title">Garden</span>
+        </a>
+      </li>
+      <li class="thumbnail-item">
+        <a href="img/otter1.jpg" data-image-role="trigger" data-image-title="Stayin' Alive" data-image-url="img/otter1.jpg">
+          <img class="thumbnail-image" src="img/otter1.jpg" alt="Barry the Otter">
+          <span class="thumbnail-title">Barry</span>
+        </a>
+      </li>
+      <li class="thumbnail-item">
+        <a href="img/otter2.jpg" data-image-role="trigger" data-image-title="How Deep Is Your Love" data-image-url="img/otter2.jpg">
+          <img class="thumbnail-image" src="img/otter2.jpg" alt="Robin the Otter">
+          <span class="thumbnail-title">Robin</span>
+        </a>
+      </li>
+      <li class="thumbnail-item">
+        <a href="img/otter3.jpg" data-image-role="trigger" data-image-title="You Should Be Dancing" data-image-url="img/otter3.jpg">
+          <img class="thumbnail-image" src="img/otter3.jpg" alt="Maurice the Otter">
+          <span class="thumbnail-title">Maurice</span>
+        </a>
+      </li>
+      <li class="thumbnail-item">
+        <a href="img/otter4.jpg" data-image-role="trigger" data-image-title="Night Fever" data-image-url="img/otter4.jpg">
+          <img class="thumbnail-image" src="img/otter4.jpg" alt="Lesley the Otter">
+          <span class="thumbnail-title">Lesley</span>
+        </a>
+      </li>
+      <li class="thumbnail-item">
+        <a href="img/otter5.jpg" data-image-role="trigger" data-image-title="To Love Somebody" data-image-url="img/otter5.jpg">
+          <img class="thumbnail-image " src="img/otter5.jpg" alt="Lesley the Otter">
+          <span class="thumbnail-title">Brabara</span>
+        </a>
+      </li>
+    </ul>
+    <div class="detail-image-container" style="float:left">
+
+      <div class="detail-image-frame">
+          <button href="#" class="previous round btn-decoration-nxt" name="btn_next" onclick="goback()" >PRV</button>
+        <img class="detail-image" data-image-role="target" src="img/otter1.jpg" alt="">
+          <button href="#" class="next round btn-decoration-prv" onclick="gofwd()">NXT</button>
+        <span class="detail-image-title" data-image-role="title">Stayin' Alive</span>
+      </div>
+
+    </div>
+  </main>
+  <script src="scripts/main.js" charset="utf-8"></script>
+</body>
+
+</html>
